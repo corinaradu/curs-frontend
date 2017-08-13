@@ -4,21 +4,36 @@ body {
    margin:0px;
 }
 
-header {
-    /* background: url('../assets/02.jpg') no-repeat center; */
-    /*background-size: 100% 100%;*/
-    /* height: 80vh;
+.slider {
     position: relative;
     font-family: 'Poppins', sans-serif;
-} */
+}
 
-.logo {
+.slider h1 {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: auto;
+    padding: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.carousel-go-next {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+/*.logo {
     float: left;
     /*position: absolute;
     top: 0;
-    left: 0;*/
+    left: 0;
     margin: 1em;
-}
+}*/
 
 /* nav {
     float: right;
@@ -27,7 +42,7 @@ header {
     /*position: absolute;
     top: 0;
     right: 0;
-    border: 1px yellow solid;*/
+    border: 1px yellow solid;
 }
 
 nav ul {
@@ -40,19 +55,7 @@ nav ul a {
     color: #fff;
 } */
 
-/* #home h1 {
-    position: absolute;
-    text-align: center;
-    font-size: 2.5em;
-    color: #fff;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 2px;
-}
-
-#home p {
+/* #home p {
     position: absolute;
     text-align: center;
     font-size: 1em;
@@ -81,5 +84,71 @@ section {
     height: 80vh;
     position: relative;
     font-family: 'Poppins', sans-serif;
-    background: url('../static/03.jpg') no-repeat center;
+    background: url('../static/03.jpg') no-repeat center center;
+    background-size: contain;
 } */
+
+.social-media {
+    background-color: #FAFCFB;
+}
+
+.social-media-links {
+     /* border: 1px solid #000; */
+    width: 60%;
+    height: 60px;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.social-media-links li {
+    font-size: 15px;
+    display: inline-block;
+    /* border: 1px solid #000; */
+    width: 20%;
+}
+
+.social-media-links .skype {
+    background: url('../poze-site/img/clients/01-dark.png') no-repeat center;
+    background-size: contain;
+}
+.social-media-links .skype:hover {
+    background: url('../poze-site/img/clients/01-white.png') no-repeat center;
+    background-size: contain;
+}
+
+.social-media-links .invision {
+    background: url('../poze-site/img/clients/02-dark.png') no-repeat center;
+    background-size: contain;
+}
+.social-media-links .invision:hover {
+    background: url('../poze-site/img/clients/02-white.png') no-repeat center;
+    background-size: contain;
+}
+
+.social-media-links .google {
+    background: url('../poze-site/img/clients/03-dark.png') no-repeat center;
+    background-size: contain;
+}
+.social-media-links .google:hover {
+    background: url('../poze-site/img/clients/03-white.png') no-repeat center;
+    background-size: contain;
+}
+
+.social-media-links .spotify {
+    background: url('../poze-site/img/clients/04-dark.png') no-repeat center;
+    background-size: contain;
+}
+.social-media-links .spotify:hover {
+    background: url('../poze-site/img/clients/04-white.png') no-repeat center;
+    background-size: contain;
+}
+
+.social-media-links .github {
+    background: url('../poze-site/img/clients/05-dark.png') no-repeat center;
+    background-size: contain;
+}
+.social-media-links .github:hover {
+    background: url('../poze-site/img/clients/05-white.png') no-repeat center;
+    background-size: contain;
+}
