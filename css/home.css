@@ -69,24 +69,25 @@ article {
     height: 80vh;
     position: relative;
     font-family: 'Poppins', sans-serif;
-}
+}*/
 h3 {
     margin-top: 5em;
     text-align: center;
     font-size: 1em;
     color: #07a4c4;
+    padding-top: 1em;
 }
 h2 {
     text-align: center;
     font-size: 1.5em;
 }
-section {
+/* section {
     height: 80vh;
     position: relative;
     font-family: 'Poppins', sans-serif;
     background: url('../static/03.jpg') no-repeat center center;
     background-size: contain;
-} */
+}  */
 
 .social-media {
     background-color: #FAFCFB;
@@ -109,46 +110,67 @@ section {
 }
 
 .social-media-links .skype {
-    background: url('../poze-site/img/clients/01-dark.png') no-repeat center;
+    background: url('../assets/clients/01-dark.png') no-repeat center;
     background-size: contain;
 }
 .social-media-links .skype:hover {
-    background: url('../poze-site/img/clients/01-white.png') no-repeat center;
+    background: url('../assets/clients/01-white.png') no-repeat center;
     background-size: contain;
 }
 
 .social-media-links .invision {
-    background: url('../poze-site/img/clients/02-dark.png') no-repeat center;
+    background: url('../assets/clients/02-dark.png') no-repeat center;
     background-size: contain;
 }
 .social-media-links .invision:hover {
-    background: url('../poze-site/img/clients/02-white.png') no-repeat center;
+    background: url('../assets/clients/02-white.png') no-repeat center;
     background-size: contain;
 }
 
 .social-media-links .google {
-    background: url('../poze-site/img/clients/03-dark.png') no-repeat center;
+    background: url('../assets/clients/03-dark.png') no-repeat center;
     background-size: contain;
 }
 .social-media-links .google:hover {
-    background: url('../poze-site/img/clients/03-white.png') no-repeat center;
+    background: url('../assets/clients/03-white.png') no-repeat center;
     background-size: contain;
 }
 
 .social-media-links .spotify {
-    background: url('../poze-site/img/clients/04-dark.png') no-repeat center;
+    background: url('../assets/clients/04-dark.png') no-repeat center;
     background-size: contain;
 }
 .social-media-links .spotify:hover {
-    background: url('../poze-site/img/clients/04-white.png') no-repeat center;
+    background: url('../assets/clients/04-white.png') no-repeat center;
     background-size: contain;
 }
 
 .social-media-links .github {
-    background: url('../poze-site/img/clients/05-dark.png') no-repeat center;
+    background: url('../assets/clients/05-dark.png') no-repeat center;
     background-size: contain;
 }
 .social-media-links .github:hover {
-    background: url('../poze-site/img/clients/05-white.png') no-repeat center;
+    background: url('../assets/clients/05-white.png') no-repeat center;
     background-size: contain;
+}
+
+.latest-news {
+    background-color: #FFF;
+    margin: auto;
+}
+
+.latest-news h3 {
+    color: #7FAABB;
+}
+
+.caption-latest-news {
+    /* border: 1px solid #000; */
+    box-shadow: 0 15px  #FBFBFB;
+}
+
+.our-impact {
+    background: url('../assets/1920x1080/06.jpg') no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    font-family: 'Poppins', sans-serif;
 }
