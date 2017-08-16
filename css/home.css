@@ -21,6 +21,17 @@ body {
     text-align: center;
 }
 
+.learn-more {
+    position: absolute;
+    color: #fff;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 .carousel-go-next {
     display: block;
     color: #fff;
