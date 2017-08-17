@@ -187,23 +187,44 @@ h2 {
 }
 footer {
     background-color:grey;
-    
+
 }
+
 .useful-links {
-    width: 60%;
-    height: 60px;
-    font-size: 0;
+    /* border: 1px solid #000; */
     margin: 0 auto;
     padding: 20px;
 }
 
 .useful-links div {
-    font-size: 15px;
-    display: inline-block; 
-    /* border: 1px solid #000; */
+    font-size: 12px;
+    display: inline-block;
+      /* border: 1px solid #000; */
     width: 20%;
 }
 
-.vertical-break {
-    display: block; 
+.useful-links div ul li {
+    list-style-type: none;
+}
+
+.useful-links div ul li a {
+    color: #fff;
+
+}
+
+.horizontal-break {
+    display: inline;
+    width: 100%;
+}
+.last-text {
+    color: #fff;
+     font-size: 12px;
+    display: inline-block;
+}
+
+.last-text h3 {
+margin-top: 0;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 0;
 }
