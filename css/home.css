@@ -170,6 +170,10 @@ h2 {
     margin: auto;
 }
 
+.latest-news h2 {
+    font-size: 1.3em;
+}
+
 .latest-news h3 {
     color: #7FAABB;
 }
@@ -186,45 +190,61 @@ h2 {
     font-family: 'Poppins', sans-serif;
 }
 footer {
-    background-color:grey;
+    background-color:#67686A;
 
 }
 
 .useful-links {
     /* border: 1px solid #000; */
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px 0px;
 }
 
 .useful-links div {
-    font-size: 12px;
-    display: inline-block;
-      /* border: 1px solid #000; */
-    width: 20%;
+    font-size: 14px;
+    /* border: 1px solid #000; */
+}
+
+.useful-links div ul {
+    margin: 0;
 }
 
 .useful-links div ul li {
     list-style-type: none;
+    margin: 10px 0px;
+
 }
 
 .useful-links div ul li a {
-    color: #fff;
+    color: #D4D5D7;
 
 }
 
 .horizontal-break {
-    display: inline;
-    width: 100%;
+    color: #D4D5D7;
+    margin-top: 0;
 }
+
 .last-text {
-    color: #fff;
-     font-size: 12px;
-    display: inline-block;
+     color: #D4D5D7;
+     font-size: 14px;
+    text-align: left;
 }
 
 .last-text h3 {
-margin-top: 0;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
     font-size: 15px;
     padding-top: 0;
+}
+.footer-logo {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.theme span {
+   color: #07a4c4;
 }
