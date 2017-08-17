@@ -185,3 +185,25 @@ h2 {
     height: 50vh;
     font-family: 'Poppins', sans-serif;
 }
+footer {
+    background-color:grey;
+    
+}
+.useful-links {
+    width: 60%;
+    height: 60px;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.useful-links div {
+    font-size: 15px;
+    display: inline-block; 
+    /* border: 1px solid #000; */
+    width: 20%;
+}
+
+.vertical-break {
+    display: block; 
+}
