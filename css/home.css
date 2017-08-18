@@ -1,8 +1,17 @@
-
+html {
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+}
 body {
    padding:0px;
    margin:0px;
+   font-size: 1rem;
    /* overflow-x: hidden; */
+}
+
+header {
+    height: 100%;
+    width:  100%;
 }
 
 .slider {
@@ -55,6 +64,16 @@ body {
     top: 0;
     right: 0;
     border: 1px yellow solid;
+}
+#nav-bar {
+sticky 
+background: transparent
+z index: 1000;
+border: none;
+}
+#dropdown-menu{
+    background: transparent
+border: none;
 }
 
 nav ul {
@@ -218,10 +237,11 @@ footer {
 
 .useful-links div ul li a {
     color: #D4D5D7;
-
+    outline: none;
+    text-decoration: none;
 }
 
-.horizontal-break {
+.horizontal-break { 
     color: #D4D5D7;
     margin-top: 0;
 }
@@ -249,3 +269,49 @@ footer {
 .theme span {
     color: #07a4c4;
 }
+
+/* Bootstrap Grid */
+.div_demo {
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    /* border: 1px solid #000; */
+}
+
+#div_1 {
+    background-color: #F78080;
+}
+#div_2 {
+    background-color: #E8E899;
+}
+#div_3 {
+    background-color: #B6B6ED;
+}
+#div_4 {
+    background-color: #F1D093;
+}
+#div_5 {
+    background-color: #658765;
+}
+#div_6 {
+    background-color: #ECA7A7;
+}
+#div_7 {
+    background-color: #AAAAF3;
+}
+#div_8 {
+    background-color: #4E824E;
+}
+#div_9 {
+    background-color: #BCBC89;
+}
+#div_10 {
+    background-color: #E7C27D;
+}
+#div_11 {
+    background-color: #7272BA;
+}
+#div_12 {
+    background-color: #7A7A60;
+}
+
