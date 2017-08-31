@@ -14,9 +14,32 @@ header {
     width:  100%;
 }
 
+ .first {
+    position: relative;
+}
+
+.navbar {
+    background: transparent;
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 .slider {
     position: relative;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .slider h1 {
@@ -56,17 +79,9 @@ header {
     margin: 1em;
 }*/
 
-/* nav {
-    float: right;
-    margin: 0;
-    padding: 1em;
-    /*position: absolute;
-    top: 0;
-    right: 0;
-    border: 1px yellow solid;
-}
+/*
 #nav-bar {
-sticky 
+sticky
 background: transparent
 z index: 1000;
 border: none;
@@ -241,7 +256,7 @@ footer {
     text-decoration: none;
 }
 
-.horizontal-break { 
+.horizontal-break {
     color: #D4D5D7;
     margin-top: 0;
 }
