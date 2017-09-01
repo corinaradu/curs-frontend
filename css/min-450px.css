@@ -5,7 +5,7 @@ html {
 body {
    padding:0px;
    margin:0px;
-   font-size: 14px;
+   font-size: 1rem;
    /* overflow-x: hidden; */
 }
 
@@ -19,8 +19,8 @@ header {
 }
 
 .navbar {
-    background: transparent !important;
-    position: fixed !important;
+    background: transparent;
+    position: absolute !important;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -36,19 +36,10 @@ header {
     font-size: 17px;
 }
 
-/* .navbar ul {
-    list-style-type: none;
-    padding: 0;
-} */
-
-/* .navbar ul a {
-    text-decoration: none;
-    color: #fff;
-}  */
-
 .slider {
     position: relative;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .slider h1 {
@@ -61,7 +52,6 @@ header {
     padding: 0;
     text-transform: capitalize;
     text-align: center;
-    font-size: 2rem;
 }
 
 .learn-more {
@@ -81,6 +71,14 @@ header {
     text-align: center;
 }
 
+/*.logo {
+    float: left;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1em;
+}*/
+
 /*
 #nav-bar {
 sticky
@@ -91,7 +89,17 @@ border: none;
 #dropdown-menu{
     background: transparent
 border: none;
-}*/
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+} */
 
 /* #home p {
     position: absolute;
@@ -118,11 +126,6 @@ h3 {
 h2 {
     text-align: center;
     font-size: 1.5em;
-}
-
-h1 {
-    text-align: center;
-    font-size: 1.6rem;
 }
 /* section {
     height: 80vh;
@@ -221,9 +224,9 @@ h1 {
     height: 50vh;
     font-family: 'Poppins', sans-serif;
 }
-
 footer {
     background-color:#67686A;
+
 }
 
 .useful-links {
@@ -244,6 +247,7 @@ footer {
 .useful-links div ul li {
     list-style-type: none;
     margin: 10px 0px;
+
 }
 
 .useful-links div ul li a {
@@ -271,7 +275,6 @@ footer {
     font-size: 15px;
     padding-top: 0;
 }
-
 .footer-logo {
     display: block;
     width: 100%;
@@ -281,3 +284,49 @@ footer {
 .theme span {
     color: #07a4c4;
 }
+
+/* Bootstrap Grid */
+.div_demo {
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    /* border: 1px solid #000; */
+}
+
+#div_1 {
+    background-color: #F78080;
+}
+#div_2 {
+    background-color: #E8E899;
+}
+#div_3 {
+    background-color: #B6B6ED;
+}
+#div_4 {
+    background-color: #F1D093;
+}
+#div_5 {
+    background-color: #658765;
+}
+#div_6 {
+    background-color: #ECA7A7;
+}
+#div_7 {
+    background-color: #AAAAF3;
+}
+#div_8 {
+    background-color: #4E824E;
+}
+#div_9 {
+    background-color: #BCBC89;
+}
+#div_10 {
+    background-color: #E7C27D;
+}
+#div_11 {
+    background-color: #7272BA;
+}
+#div_12 {
+    background-color: #7A7A60;
+}
+
