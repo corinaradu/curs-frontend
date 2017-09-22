@@ -16,6 +16,9 @@
 }
 /** END BOOTSTRAP HACKS **/
 
+#home {
+    overflow-x: hidden;
+}
 html {
     font-size: 14px;
 }
